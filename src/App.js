@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Welcome React</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vero doloribus ipsa laboriosam obcaecati praesentium molestiae modi, laudantium consequuntur amet, accusantium quasi, vitae odio quaerat temporibus quibusdam laborum repudiandae veniam provident repellat explicabo unde natus! Amet tempore ipsam praesentium expedita.</p>
+
     </div>
-  );
+  )
 }
 
 export default App;
