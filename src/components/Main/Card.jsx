@@ -2,7 +2,7 @@ const Card = (data) => {
     const {id,title,image,desc} = data
     
     return (
-        <div className="cards">
+        <div key={id} className="cards">
             <div className="title">
                 <h1>{title}</h1>
                 
