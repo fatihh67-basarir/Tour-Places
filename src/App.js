@@ -1,11 +1,16 @@
 import "./App.scss";
+import "./components/Navbar/Navbar.jsx";
+import Navbar from "./components/Navbar/Navbar";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
 
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Welcome React</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vero doloribus ipsa laboriosam obcaecati praesentium molestiae modi, laudantium consequuntur amet, accusantium quasi, vitae odio quaerat temporibus quibusdam laborum repudiandae veniam provident repellat explicabo unde natus! Amet tempore ipsam praesentium expedita.</p>
+      <Navbar/>
+      <Header/>
+      <Main/>
 
     </div>
   )
